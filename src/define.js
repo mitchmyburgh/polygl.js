@@ -1,0 +1,9 @@
+var polygl = p;
+polygl.context = p.c;
+polygl.buffer = p.b;
+polygl.shader = p.s;
+polygl.texture = p.t;
+polygl.color = p.co;
+polygl.video = p.v;
+polygl.program = p.pr;
+polygl.enable2d = p.e2d;

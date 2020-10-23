@@ -1,0 +1,10 @@
+var p = {};
+p.b = {};
+p.c = {};
+p.co = {};
+p.s = {};
+p.t = {};
+p.v = {};
+p.pr = undefined;
+p.e2d = true;
+if (document.body) document.body.style.position = "relative";

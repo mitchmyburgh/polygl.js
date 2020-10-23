@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>POLYGL KEYBOARD</title>
+        <script src="../build/polygl.js"></script>
+    </head>
+    <body>
+        <canvas width="600" height="600" style="border: 1px black solid;"></canvas>
+        <script>
+            polygl.context.init();
+            var player = { x: 100, y: 100, w: 30, h: 30, up: false, down: false, left: false, right: false };
+            polygl.context.color([ 0, 0, 1, 1 ]);
+            function game() {
+                window.requestAnimationFrame(game);
+                polygl.context.clear();
+                polygl.context.rect(player.x, player.y, player.w, player.h);
+                if (player.up) player.y -= 10;
+                if (player.down) player.y += 10;
+                if (player.left) player.x -= 10;
+                if (player.right) player.x += 10;
+            }
+            window.requestAnimationFrame(game);
+            window.onkeydown = function(e) {
+                if (e.which == 38) player.up = true;
+                if (e.which == 40) player.down = true;
+                if (e.which == 37) player.left = true;
+                if (e.which == 39) player.right = true;
+            };
+            window.onkeyup = function(e) {
+                if (e.which == 38) player.up = false;
+                if (e.which == 40) player.down = false;
+                if (e.which == 37) player.left = false;
+                if (e.which == 39) player.right = false;
+            };
+        </script>
+    </body>
+</html>

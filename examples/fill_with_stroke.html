@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>POLYGL FILL + STROKE</title>
+    </head>
+    <body>
+        <canvas width="600" height="600"></canvas>
+        <script src="../build/polygl.js"></script>
+        <script>
+            polygl.context.init();
+            function game() {
+                window.requestAnimationFrame(game);
+                polygl.context.clear();
+                polygl.context.mode = "fill";
+                polygl.context.color(polygl.color.RGB(0, 0, 255));
+                polygl.context.circle(100, 100, 50);
+                polygl.context.mode = "stroke";
+                polygl.context.color(polygl.color.RGB(0, 0, 0));
+                polygl.context.circle(100, 100, 50);
+            }
+            window.requestAnimationFrame(game);
+        </script>
+    </body>
+</html>

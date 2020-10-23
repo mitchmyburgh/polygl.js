@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>POLYGL MOUSE</title>
+        <script src="../build/polygl.js"></script>
+    </head>
+    <body>
+        <canvas width="600" height="600" style="border: 1px black solid;"></canvas>
+        <script>
+            polygl.context.init();
+            window.onmousemove = function(e) {
+                polygl.context.clear();
+                polygl.context.rect(e.clientX || e.pageX, e.clientY || e.pageY, 50, 50);
+            };
+        </script>
+    </body>
+</html>

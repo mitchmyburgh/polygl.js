@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>POLYGL IMAGE</title>
+    </head>
+    <body>
+        <canvas width="600" height="600"></canvas>  
+        <script src="../build/polygl.js"></script>
+        <script>
+            polygl.context.init();
+            var i = new Image();
+            i.src = "apple.png";
+            function game() {
+                window.requestAnimationFrame(game);
+                polygl.context.clear();
+                for (var x = 0; x < 5; x++) polygl.context.drawImage(i, x * 100, x * 100, 64, 64);
+            }
+            window.requestAnimationFrame(game);
+        </script>
+    </body>
+</html>

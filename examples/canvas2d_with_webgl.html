@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebGL + Canvas2D</title>
+        <script src="../build/polygl.js"></script>
+    </head>
+    <body>
+        <canvas width="600" height="600"></canvas>
+        <script>
+            polygl.context.init();
+            polygl.context.clear();
+            polygl.context.mode = "fill";
+            polygl.context.rect(0, 0, 50, 50);
+            polygl.context.mode = "both";
+            polygl.context.color([ 0, 0, 1, 1 ]);
+            polygl.context.rect(50, 50, 50, 50);
+            polygl.context.mode = "stroke";
+            polygl.context.color([ 0, 0, 0, 1 ]);
+            polygl.context.font("Arial", 22);
+            polygl.context.text("This is better", 200, 100);
+        </script>
+    </body>
+</html>
