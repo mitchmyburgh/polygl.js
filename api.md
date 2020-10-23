@@ -12,6 +12,7 @@
 ### globals
 
 ```js
+// Variables
 polygl.program                                    // Current WebGL program used by polygl.js (Already defined from source with shaders made)
 polygl.enable2d                                   // Enable CanvasRenderingContext2D (Used by polygl.js for partial stuff)
 ```
