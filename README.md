@@ -29,3 +29,12 @@ Add `polygl.js` or `polygl.min.js` to your HTML file...
 Open this in your browser...You should see blue rectangle :)
 
 For usage read the [API](https://github.com/Rabios/polygl.js/blob/master/api.md), It's simple...
+
+### Examples
+
+1. [200 colored rectangles](https://rabios.github.io/polygl.js/blob/main/examples/test.html)
+2. [Mixing `WebGLRenderingContext` with `CanvasRenderingContext2D`](https://rabios.github.io/polygl.js/blob/main/examples/canvas2d_with_webgl.html)
+3. [Keyboard player movement](https://rabios.github.io/polygl.js/blob/main/examples/keyboard.html)
+4. [Mouse movement](https://rabios.github.io/polygl.js/blob/main/examples/mouse.html)
+5. [Drawing textures](https://rabios.github.io/polygl.js/blob/main/examples/image.html)
+6. [Fill with stroke mode](https://rabios.github.io/polygl.js/blob/main/examples/fill_with_stroke.html)
