@@ -32,9 +32,9 @@ For usage read the [API](https://github.com/Rabios/polygl.js/blob/master/api.md)
 
 ### Examples
 
-1. [200 colored rectangles](https://rabios.github.io/polygl.js/blob/main/examples/test.html)
-2. [Mixing `WebGLRenderingContext` with `CanvasRenderingContext2D`](https://rabios.github.io/polygl.js/blob/main/examples/canvas2d_with_webgl.html)
-3. [Keyboard player movement](https://rabios.github.io/polygl.js/blob/main/examples/keyboard.html)
-4. [Mouse movement](https://rabios.github.io/polygl.js/blob/main/examples/mouse.html)
-5. [Drawing textures](https://rabios.github.io/polygl.js/blob/main/examples/image.html)
-6. [Fill with stroke mode](https://rabios.github.io/polygl.js/blob/main/examples/fill_with_stroke.html)
+1. [200 colored rectangles](https://rabios.github.io/polygl.js/examples/test.html)
+2. [Mixing `WebGLRenderingContext` with `CanvasRenderingContext2D`](https://rabios.github.io/polygl.js/examples/canvas2d_with_webgl.html)
+3. [Keyboard player movement](https://rabios.github.io/polygl.js/examples/keyboard.html)
+4. [Mouse movement](https://rabios.github.io/polygl.js/examples/mouse.html)
+5. [Drawing textures](https://rabios.github.io/polygl.js/examples/image.html)
+6. [Fill with stroke mode](https://rabios.github.io/polygl.js/examples/fill_with_stroke.html)
