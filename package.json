@@ -1,0 +1,25 @@
+{
+  "name": "unknown",
+  "version": "0.0.1",
+  "description": "WebGL Drawing library",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchmyburgh/polygl.js.git"
+  },
+  "author": "Mitch Myburgh & Rabia Alhaffar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitchmyburgh/polygl.js/issues"
+  },
+  "homepage": "https://github.com/mitchmyburgh/polygl.js#readme",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
+}
